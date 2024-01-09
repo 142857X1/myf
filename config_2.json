@@ -1,0 +1,13 @@
+{
+    "server":["[::0]", "0.0.0.0"],
+    "nameserver": "8.8.8.8",
+    "server_port":3443,
+    "local_port":1080,
+    "password":"xxxxxx",
+    "timeout":300,
+    "method":"chacha20-ietf-poly1305",
+    "mode":"tcp_and_udp",
+    "ipv6_first": true,
+    "plugin": "v2ray-plugin",
+    "plugin_opts": "server;tls;fast-open;host=zzzzzz.com;cert=/usr/local/etc/trojan/trojan.cer;key=/usr/local/etc/trojan/trojan.key;loglevel=none"
+}
